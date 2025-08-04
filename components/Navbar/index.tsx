@@ -71,17 +71,17 @@ const Navbar = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <FaGithub className={`text-gray-600 mr-2 text-xl lg:text-3xl hover:text-black`} />
+            <FaGithub className={`text-gray-600 mr-2 text-xl lg:text-xl hover:text-black`} />
           </a>
           <p
             className="flex gap-x-2 items-center justify-center bg-gray-200 rounded-lg py-1 px-2 mx-2"
           >
-            <GoRepoForked className={`text-gray-600 ml-2 text-sm lg:text-lg cursor-pointer hover:text-black`} /> <span className="text-sm">Fork</span> <span className="rounded-full bg-gray-300 h-6 w-6 flex items-center justify-center">{repoInfo.forks}</span>
+            <GoRepoForked className={`text-gray-600 ml-2 text-sm lg:text-lg cursor-pointer hover:text-black`} /><span className="rounded-full bg-gray-300 h-6 w-6 flex items-center justify-center">{repoInfo.forks}</span>
           </p>
           <p
             className="flex gap-x-2 items-center justify-center bg-gray-200 rounded-lg py-1 px-2"
           >
-            <FaStar className={`text-yellow-500 ml-2 text-sm lg:text-lg cursor-pointer hover:text-yellow-600`} /> <span className="text-sm">Starred</span> <span className="rounded-full bg-gray-300 h-6 w-6 flex items-center justify-center">{repoInfo.stars}</span>
+            <FaStar className={`text-yellow-500 ml-2 text-sm lg:text-lg cursor-pointer hover:text-yellow-600`} /><span className="rounded-full bg-gray-300 h-6 w-6 flex items-center justify-center">{repoInfo.stars}</span>
           </p>
         </div>
       </div>
