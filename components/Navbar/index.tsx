@@ -71,7 +71,7 @@ const Navbar = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <FaGithub className={`text-gray-600 mr-2 text-xl lg:text-xl hover:text-black`} />
+            <FaGithub className={`text-gray-600 mr-2 text-xl hover:text-black`} />
           </a>
           <p
             className="flex gap-x-2 items-center justify-center bg-gray-200 rounded-lg py-1 px-2 mx-2"
